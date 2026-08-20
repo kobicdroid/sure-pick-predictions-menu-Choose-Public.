@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sure Pick Predictions</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0f19;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 25px 18px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 10px 25px;
+}
+
+.logo {
+    font-size: 45px;
+}
+
+h1 {
+    margin: 8px 0;
+    font-size: 25px;
+}
+
+.subtitle {
+    color: #aeb6c5;
+    font-size: 14px;
+}
+
+.menu {
+    display: grid;
+    gap: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 17px;
+    border: 0;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #182235;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.dc {
+    background: #1769aa;
+}
+
+.ou {
+    background: #c96b16;
+}
+
+.vip {
+    background: #7b3fb3;
+}
+
+.results {
+    background: #236b45;
+}
+
+.fixtures {
+    background: #245a9b;
+}
+
+.contact {
+    background: #168c82;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #8993a5;
+    font-size: 12px;
+    line-height: 1.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="logo">⚽</div>
+        <h1>SURE PICK PREDICTIONS</h1>
+        <div class="subtitle">
+            Football Analysis • Predictions • VIP Updates
+        </div>
+    </div>
+
+    <div class="menu">
+
+        <button class="dc" onclick="dc30()">
+            🔵 SHUTDOWN DC 30
+        </button>
+
+        <button class="ou" onclick="ou30()">
+            🟠 SHUTDOWN O/U 30
+        </button>
+
+        <button class="vip" onclick="vip()">
+            💎 VIP
+        </button>
+
+        <button class="results" onclick="results()">
+            📊 RESULTS
+        </button>
+
+        <button class="fixtures" onclick="fixtures()">
+            ⚽ FIXTURES
+        </button>
+
+        <button class="contact" onclick="contact()">
+            📩 CONTACT SHUTDOWN
+        </button>
+
+    </div>
+
+    <div class="footer">
+        ⚠️ Football is unpredictable. No prediction is guaranteed.
+        <br>
+        Please play responsibly.
+    </div>
+
+</div>
+
+<script>
+
+function dc30() {
+    alert("🔵 Shutdown DC 30\n\nToday's DC 30 selections will appear here.");
+}
+
+function ou30() {
+    alert("🟠 SHUTDOWN O/U 30\n\nToday's Over/Under selections will appear here.");
+}
+
+function vip() {
+    window.open("https://t.me/Shutdown048", "_blank");
+}
+
+function results() {
+    alert("📊 Results\n\nToday's results will appear here.");
+}
+
+function fixtures() {
+    alert("⚽ Fixtures\n\nToday's fixtures will appear here.");
+}
+
+function contact() {
+    window.open("https://t.me/Shutdown048", "_blank");
+}
+
+</script>
+
+</body>
+</html>
